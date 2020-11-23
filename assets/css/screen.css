@@ -1,0 +1,94 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+/*******
+ FONTS
+*******/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/********
+ HEADER
+********/
+
+header {
+    background-color: #1C2833;
+}
+
+header h1 {
+    padding: 2rem;
+    font-size: 2rem;
+    color: #FFC300;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+
+header h2 {
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1.2rem;
+    color: #FFC300;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+/********
+  MAIN
+********/
+
+main {
+    padding: 0.8rem;
+}
+
+/********
+QUESTIONS
+********/
+
+ol li {
+    margin-bottom: 0.8rem;
+    font-size: 1.5rem;
+    font-family: 'Open Sans', sans-serif;
+    padding: 1rem;
+}
+
+ol li input {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+li:nth-child(even) {
+background-color: #CCC
+}
+
+/********
+ BUTTON
+********/
+
+input.button {
+    height: 7rem;
+    width: 30%;
+    font-size: 2.5rem;
+    border-radius: 1rem;
+}
+
+/********
+ SCORE
+********/
+
+#toShow {
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#toShow h3 {
+    margin-top: 2rem;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
