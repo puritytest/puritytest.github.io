@@ -19,7 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4683f43-56f9-4d38-834d-bd1ec1e8f3e5" name="Default Changelist" comment="checkboxen werken op alle tags erin maar opmaak moet gefixt worden" />
+    <list default="true" id="31bf81f8-8a45-4f6b-a228-0e98ec93adf6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/images/checked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/cross.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/screen.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/screen.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,7 +35,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1klsGHCIUqILcbXwmk40HFcDOor" />
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="d57ef3f6-5d64-46fd-af6e-2b25fb2efd8c" />
+  </component>
+  <component name="ProjectId" id="1kmQUvjMxBkkHQ7GVd4ZCXW6eWq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,28 +46,25 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
     <property name="settings.editor.selected.configurable" value="ssh.settings" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wolfs\PhpstormProjects\puritytest.github.io\assets\images" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="c4683f43-56f9-4d38-834d-bd1ec1e8f3e5" name="Default Changelist" comment="" />
-      <created>1606286414612</created>
+      <changelist id="31bf81f8-8a45-4f6b-a228-0e98ec93adf6" name="Default Changelist" comment="" />
+      <created>1606303306119</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1606286414612</updated>
-      <workItem from="1606286415738" duration="10462000" />
+      <updated>1606303306119</updated>
+      <workItem from="1606303307664" duration="2548000" />
     </task>
-    <task id="LOCAL-00001" summary="checkboxen werken op alle tags erin maar opmaak moet gefixt worden">
-      <created>1606301569792</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1606301569792</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,19 +80,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="checkboxen werken op alle tags erin maar opmaak moet gefixt worden" />
-    <option name="LAST_COMMIT_MESSAGE" value="checkboxen werken op alle tags erin maar opmaak moet gefixt worden" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="72" y="256" key="Vcs.Push.Dialog.v2" timestamp="1606301602113">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="72" y="256" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1606301602113" />
-    <state x="136" y="244" key="run.anything.popup" timestamp="1606289091680">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="136" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1606289091680" />
   </component>
 </project>

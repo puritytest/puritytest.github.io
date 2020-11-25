@@ -62,11 +62,20 @@ QUESTIONS
 
 ol li>button {
     margin-bottom: 0;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     font-family: 'Open Sans', sans-serif;
-    padding: 0;
+    padding: 0.5rem;
     background-color: #FFF;
     text-align: left;
+    border: none;
+}
+
+ol li:first-child button {
+    background-color: #28B463;
+    background-image: url("../images/checked.png");
+    background-repeat: no-repeat;
+    background-size: 2.8%;
+    background-position: 99% 50%;
 }
 
 ol li input {
@@ -77,9 +86,28 @@ ol.li{
    padding: 0;
 }
 li:nth-child(even)>button {
-background-color: #CCC
+    background-color: #EE5F5F;
+    margin-bottom: 4px;
+    background-image: url("../images/cross.png");
+    background-repeat: no-repeat;
+    background-size: 2.8%;
+    background-position: 99% 50%;
+    border-radius: 0.5rem;
+
+}
+li:nth-child(odd)>button {
+    background-color: #EE5F5F;
+    margin-bottom: 5px;
+    background-image: url("../images/cross.png");
+    background-repeat: no-repeat;
+    background-size: 2.8%;
+    background-position: 99% 50%;
+    border-radius: 0.5rem;
 }
 
+#toHide ol li input {
+    display: none;
+}
 /********
  BUTTON
 ********/
