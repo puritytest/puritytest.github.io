@@ -25,9 +25,20 @@
         ga('set', 'transport', 'beacon');
     </script>
     <script>
+        let fix = true
         function toggleCheckbox(n){
             let inputs = document.getElementsByTagName("input");
-            inputs[n]=!inputs[n]
+            inputs[n-1]=!inputs[n-1]
+            let display = document.getElementsByTagName("button");
+            if (display[n-1].classList.contains("true")&&fix===true){
+                display[n-1].classList.remove("true")
+                fix = false
+            }else if(fix===true){
+                display[n-1].classList.add("true")
+                fix = false
+            }else{
+                fix=true
+            }
         }
     </script>
     <main>
