@@ -73,6 +73,7 @@ ol li>button {
     background-size: 2.8%;
     background-position: 99% 50%;
     border-radius: 0.5rem;
+    line-height: 2;
 }
 .true {
     background-color: #28B463;
