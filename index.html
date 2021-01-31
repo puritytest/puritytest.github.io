@@ -146,7 +146,7 @@
         <div id="q2"><h3>Between 97 and 94:</h3>
         <h3>You’re still considered pretty pure. Maybe you’ve had your first kiss or held hands with someone, but you haven’t gone much further than that. </h3></div>	
         <div id="q3"><h3>Between 93 and 77:</h3>
-        <h3>This is about the average score range, which signifies that you are not an averagely pure person. Maybe you’ve french kissed before or even gone down below the belt!</h4></div>		
+        <h3>This is about the average score range, which signifies that you are not an averagely pure person. Maybe you’ve french kissed before or even gone down below the belt!</h3></div>
         <div id="q4"><h3>Between 76 and 45:</h3>
         <h3>This score means you might have your fair share of alcohol, drugs, or sexual experiences.</h3></div>	
         <div id="q5"><h3>Between 44 and 9:</h3>
@@ -189,40 +189,45 @@
             $("#toShow").show();
             $("#toHide").hide();
 
-            $("#q1").hide();	
-            $("#q2").hide();	
-            $("#q3").hide();	
-            $("#q4").hide();	
-            $("#q5").hide();	
-            $("#q6").hide();	
+            $("#q1").hide();
+            $("#q2").hide();
+            $("#q3").hide();
+            $("#q4").hide();
+            $("#q5").hide();
+            $("#q6").hide();
 
             switch(true) {	
-                    case(100 >= purity >= 98):	
-                        $("#q1").show();	
-                        break;	
+                case(100 >= purity && purity >= 98):
+                    console.log('1')
+                    $("#q1").show();
+                    break;
 
-                    case (97 >= purity >= 94):	
-                        $("#q2").show();	
-                        break;	
+                case (97 >= purity && purity >= 94):
+                    console.log('2')
+                    $("#q2").show();
+                    break;
 
-                    case (93 >= purity >= 77):	
-                        $("#q3").show();	
-                        break;	
+                case (93 >= purity && purity >= 77):
+                    console.log('3')
+                    $("#q3").show();
+                    break;
 
-                    case (76 >= purity >= 45):	
-                        $("#q4").show();	
-                        break;	
+                case (76 >= purity && purity >= 45):
+                    console.log('4')
+                    $("#q4").show();
+                    break;
 
-                    case (44 >= purity >= 9):	
-                        $("#q5").show();	
-                        break;	
+                case (44 >= purity && purity >= 9):
+                    console.log('5')
+                    $("#q5").show();
+                    break;
 
-                    case (9 >= purity >= 0):	
-                        $("#q6").show();	
-                        break;	
-                    
-                    default:	
-                        $("#q80").show();
+                case (9 >= purity && purity >= 0):
+                    $("#q6").show();
+                    break;
+
+                default:
+                    $("#q80").show();
 
             }
         });
